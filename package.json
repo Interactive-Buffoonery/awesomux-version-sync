@@ -1,0 +1,11 @@
+{
+  "name": "awesomux-version-sync",
+  "version": "1.0.0",
+  "private": true,
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "test": "php tests/check.php",
+    "lint": "php -l awesomux-version-sync.php && php -l uninstall.php && php -l tests/check.php && php -l tests/wordpress.php",
+    "plugin-zip": "python3 scripts/package.py"
+  }
+}
